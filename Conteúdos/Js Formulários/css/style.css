@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0B1726, #0b2c57);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+    color: #eeeeee;
+}
+
+form{
+    font-size: 12px;
+    background-color: #138dd3;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 400px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: gainsboro;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    box-shadow: 5px 0px 9px #110f38;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}

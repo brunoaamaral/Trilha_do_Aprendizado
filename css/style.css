@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    border-radius: 10px;
+}
+h1{
+    font-size: 30px;
+}
+ul{
+    background-color: #333333;
+    list-style: none;
+    border: 1px solid white;
+    color: white;
+}
+a{
+    color: white;
+}
+.rodape {
+    text-align: center;
+    float: bottom;
+    padding: 30px;
+}

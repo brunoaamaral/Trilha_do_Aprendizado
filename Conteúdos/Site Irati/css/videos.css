@@ -1,0 +1,82 @@
+.cabecalho{ 
+    background-color: #141414;
+    text-align: center;       
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.navegacao{
+    overflow: hidden; 
+    
+}
+.navegacao a{
+    float: right;
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+}
+
+body{
+    background-color:#333232;
+}
+
+.navegacao a:hover{
+    color: rgb(20, 173, 220);
+}
+.principal{
+    display: flex;
+}
+.conteudo {
+    background-color:#333232;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.navbar {
+    position: absolute;
+    right: 10%;
+    margin: 1%;
+    background-color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: rgb(50, 100, 109);
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+.tour{
+    background-color:white;
+    border-radius: 10px;
+}
+.parque{
+    background-color: white;
+    border-radius: 10px;
+}
+.santa{
+    background-color: white;
+    border-radius: 10px;
+}
+.santuario{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.rodape{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+}

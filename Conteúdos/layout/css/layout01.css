@@ -1,0 +1,55 @@
+body{ /*altera as propriedades gerais do conteudo html*/
+    font-family: 'Times New Roman', Times, serif;
+    width:90%;
+    margin:0 auto;
+    background-image:linear-gradient(to right, #2ba1b1, #9714a3 );
+
+}
+header{ /*define o cabeçalho do site*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 10px; /*arredonda os cantos de um elemento*/
+    margin-top: 10px;
+
+}
+.logo img{ /* alteraçao da div logo especificamente na tag img */
+    width:50%; /* aumenta ou diminue a imagem*/
+    padding-top: 50px; /* afasta o conteudo do logo*/
+}
+.navegacao{
+    overflow: hidden; /*esconde a barra de rolagem*/
+}
+.navegacao a{ /*altera os hiperlinks da classe navegacao*/
+    float: right; /*posiciona o conteudo em relacao a direita*/
+    color:rgb(173,173,173);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navegacao a:hover{ /*altera a cor dos links quando passa o mouse por cima*/
+    color: #e32936;
+}
+.principal{
+    display: flex;
+}
+.conteudo{
+    margin: 12px 12px 12px 12px; /*define margens em relaçao ao body*/
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 10px; /*para o texto nao ficar colado no card*/
+    border-radius: 10px;/*canos arredondaos*/
+    box-shadow: 10px 10px black; /*define a sombra*/
+}
+.rodape{
+    color:darkgrey;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (max width: 600px){
+    .principal, .conteudo {
+        width:100%;
+        flex-direction:column;
+        padding:0px
+    }
+}

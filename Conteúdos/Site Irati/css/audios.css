@@ -1,0 +1,44 @@
+.cabecalho{ 
+    background-color: #141414;
+    text-align: center;       
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.navegacao{
+    overflow: hidden; 
+    
+}
+.navegacao a{
+    float: right;
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+}
+
+body{
+    background-color:#333232;
+}
+
+.navegacao a:hover{
+    color: rgb(20, 173, 220);
+}
+.principal{
+    display: flex;
+}
+
+.audi{
+    background-color: white;
+    border-radius: 10px;
+}
+.audi2{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.rodape{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+}
